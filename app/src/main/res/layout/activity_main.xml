@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="@dimen/margin"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+
+        <ImageView
+            android:id="@+id/im_jelly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/jelly_bean"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tv_jelly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/android"
+            android:paddingTop="60dp"
+            android:text="@string/jelly_bean"
+            android:textSize="@dimen/size"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="136dp" />
+
+        <ImageView
+            android:id="@+id/im_kitkat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            android:src="@drawable/kitkat"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="183dp" />
+
+        <TextView
+            android:id="@+id/tv_kitkat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/android"
+            android:paddingTop="50dp"
+            android:text="@string/kitkat"
+            android:textSize="36sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="183dp" />
+
+        <ImageView
+            android:id="@+id/im_lollipop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lollipop"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="303dp" />
+
+        <TextView
+            android:id="@+id/tv_lollipop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/android"
+            android:paddingTop="60dp"
+            android:text="@string/lollipop"
+            android:textSize="@dimen/size"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="136dp"
+            tools:layout_editor_absoluteY="303dp" />
+
+        <ImageView
+            android:id="@+id/im_marshmallow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/marshmallow"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="474dp" />
+
+        <TextView
+            android:id="@+id/tv_marshmallow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/android"
+            android:paddingTop="60dp"
+            android:text="@string/marshmallow"
+            android:textSize="@dimen/size"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="136dp"
+            tools:layout_editor_absoluteY="474dp" />
+
+        <ImageView
+            android:id="@+id/im_nougat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nougat"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="630dp" />
+
+        <TextView
+            android:id="@+id/tv_nougat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/android"
+            android:paddingTop="60dp"
+            android:text="@string/nougat"
+            android:textSize="@dimen/size"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="136dp"
+            tools:layout_editor_absoluteY="630dp" />
+
+        <ImageView
+            android:id="@+id/im_oreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/oreo"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="745dp" />
+
+        <TextView
+            android:id="@+id/tv_oreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/android"
+            android:paddingTop="60dp"
+            android:text="@string/oreo"
+            android:textSize="@dimen/size"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="136dp"
+            tools:layout_editor_absoluteY="745dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
